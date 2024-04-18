@@ -1,4 +1,4 @@
-/*
+/*HOLA
  Basic ESP8266 MQTT example
  This sketch demonstrates the capabilities of the pubsub library in combination
  with the ESP8266 board/library.
@@ -17,7 +17,7 @@
   - Open the "Tools -> Board -> Board Manager" and click install for the ESP8266"
   - Select your ESP8266 in "Tools -> Board"
 */
-
+//HI
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 

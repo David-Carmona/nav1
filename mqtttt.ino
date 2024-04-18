@@ -22,6 +22,7 @@
 #include <PubSubClient.h>
 
 // Update these with values suitable for your network.
+//ESKEREEE
 
 const char* ssid = "iot_prueba";
 const char* password = "grupociber123";
@@ -67,6 +68,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
     Serial.print((char)payload[i]);
   }
   Serial.println();
+  //ESKEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 
   // Switch on the LED if an 1 was received as first character
   if ((char)payload[0] == '1') {
